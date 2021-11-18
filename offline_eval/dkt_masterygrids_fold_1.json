@@ -1,0 +1,40 @@
+{
+  "exp_name": "DKT_MasteryGrids_fold_1",
+  "agent": "DKTAgent",
+  "mode": "test",
+  "metric": "auc",
+
+  "cuda": false,
+  "gpu_device": 0,
+  "seed": 1024,
+
+  "data_name": "MasteryGrids_fold_1",
+  "min_seq_len": 2,
+  "max_seq_len": 200,
+  "stride": 199,
+  "validation_split": 0.2,
+  "shuffle": true,
+  "num_workers": 8,
+  "batch_size": 64,
+  "test_batch_size": 1000,
+
+  "rnn_type": "LSTM",
+  "hidden_dim": 128,
+  "num_layers": 1,
+  "nonlinearity": "tanh",
+
+  "optimizer": "adam",
+  "learning_rate": 0.003,
+  "max_grad_norm": 10.0,
+  "epsilon": 0.1,
+  "momentum": 0.5,
+  "weight_decay": 0,
+  "beta1": 0.5,
+  "beta2": 0.999,
+  "max_epoch": 40,
+
+  "log_interval": 10,
+  "validate_every": 1,
+  "save_checkpoint": true,
+  "checkpoint_file": "checkpoint.pth.tar"
+}
