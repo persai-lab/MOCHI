@@ -1,9 +1,9 @@
 import pandas as pd
 
 # TODO:
-#   1. assign a new ID to each item, and the item ID starts with 0 or 1, and
+#   1. assign a new ID to each item, and the new ID starts with 0 or 1, and
 #       save the new_id -> raw_id mapping
-#   2. assign a new ID to each user, and the user ID starts with 0 or 1, and
+#   2. assign a new ID to each user, and the new ID starts with 0 or 1, and
 #       save the new_id -> raw_id mapping
 #   3. generate a dictionary that key is the user's new ID, value is a list of interacted items
 #       sorted by time
