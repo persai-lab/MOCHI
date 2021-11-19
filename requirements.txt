@@ -1,0 +1,6 @@
+certifi==2021.10.8
+numpy==1.21.4
+psutil==5.8.0
+python-xlib==0.29
+pyudev==0.22.0
+scipy==1.7.2
